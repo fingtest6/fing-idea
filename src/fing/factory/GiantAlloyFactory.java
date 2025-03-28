@@ -43,7 +43,7 @@ public class GiantAlloyFactory {
             );
             itemCapacity = 50;
             consumeLiquid(Liquids.slag, 1f);
-            liquidCapacity = 10f;
+            liquidCapacity = 80f;
             hasLiquids = true;
             consumePower(55f);
             researchCostMultiplier = 2f;

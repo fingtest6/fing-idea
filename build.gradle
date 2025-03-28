@@ -8,6 +8,9 @@ repositories{
     mavenCentral()
     maven{ url "https://raw.githubusercontent.com/Zelaux/MindustryRepo/master/repository" }
     maven{ url 'https://www.jitpack.io' }
+    maven {
+        url = uri("https://github.com/Yuria-Shikibe/NewHorizonMod/releases/download/0.5.8/")
+    }
 }
 
 java{
@@ -34,6 +37,7 @@ allprojects{
 dependencies{
     compileOnly "com.github.Anuken.Arc:arc-core:$mindustryVersion"
     compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
+    compileOnly "com.github.Yuria-Shikibe:NewHorizonMod:0.5.8"
 
     annotationProcessor "com.github.Anuken:jabel:$jabelVersion"
 }

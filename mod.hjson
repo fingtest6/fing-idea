@@ -13,8 +13,12 @@ main: "fing.Main"
 #the mod description as seen in the mod dialog
 description: "fingtest6的一些想法"
 
+dependencies: [
+  new-horizon
+]
+
 #the mod version
-version: 1.0.0
+version: 1.1.0
 
 #the minimum game build required to run this mod
 minGameVersion: 146
