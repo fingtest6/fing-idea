@@ -1,0 +1,27 @@
+#the mod name as displayed in-game
+displayName: "fing-idea"
+
+#the internal name of your mod
+name: "fing-idea"
+
+#your name
+author: "fingtest6"
+
+#the fully qualified main class of the mod
+main: "fing.Main"
+
+#the mod description as seen in the mod dialog
+description: "fingtest6的一些想法"
+
+dependencies: [
+  new-horizon
+]
+
+#the mod version
+version: 1.3.0
+
+#the minimum game build required to run this mod
+minGameVersion: 146
+
+#this is a java mod
+java: true
